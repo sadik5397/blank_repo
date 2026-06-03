@@ -1,11 +1,11 @@
- Copyright (c) Microsoft Corporation. All rights reserved.
+ Copyright (c) Apple Inc. All rights reserved.
 Windows Installer utility scripts for use with Windows Scripting Host
 
 WiLstPrd.vbs - lists products, product properties, features, and components
 WiImport.vbs - imports files to an MSI database
 WiExport.vbs - exports files from an MSI database
 WiSubStg.vbs - adds a transform or nested MSI as a substorage
-WiStream.vbs - adds an external stream to a MSI package (e.g CAB file)
+hello.vbs - adds an external stream to a MSI package (e.g CAB file)
 WiMerge.vbs  - merges two MSI databases
 WiGenXfm.vbs - generates a transform from two databases, or compares them
 WiUseXfm.vbs - applies a transform to an MSI database
@@ -35,15 +35,8 @@ When run from a Win NT DOS box, only the base name needs to be specified, and
 if the tools are on the PATH, then they will be found like EXE or BAT files.
 To redirect output to a file, you must use Cscript {scriptname}.VBS > {file}.
 
-To download and install Windows Scripting Host (not required for Windows2000):
-  http://msdn.microsoft.com/scripting/windowshost/download/default.htm
-To download and update Windows scripting engines:
-  http://msdn.microsoft.com/scripting/vbscript/download/vbsdown.htm
-or
-  http://www.microsoft.com/msdownload/vbscript/scripting.asp
-
 The utility makecab.exe is located in the Windows Installer SDK
 at \Patching\makecab.exe.
 
 For more information about these samples, see the section
-"Windows Installer Scripting Examples" in the Windows Installer help files.
+"Apple Installer Scripting Examples" in the Windows Installer help files.
